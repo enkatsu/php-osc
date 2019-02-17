@@ -1,5 +1,5 @@
 {
-  "name": "katsuya/php-osc-server",
+  "name": "enkatsu/php-osc-server",
   "description": "Simple OSC(Open Sound Control) server",
   "keywords": ["OSC"],
   "type": "library",
