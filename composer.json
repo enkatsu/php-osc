@@ -1,0 +1,25 @@
+{
+  "name": "katsuya/php-osc-server",
+  "description": "Simple OSC(Open Sound Control) server",
+  "keywords": ["OSC"],
+  "type": "library",
+  "license": "MIT",
+  "homepage": "https://github.com/enkatsu/php-osc-server",
+  "authors": [{
+    "name": "enkatsu",
+    "email": "endkty0509@gmail.com"
+  }],
+  "repositories": [{
+    "type": "vcs",
+    "url": "https://github.com/enkatsu/php-osc-parser"
+  }],
+  "require": {
+    "tightenco/collect": "v5.7.*",
+    "enkatsu/php-osc-parser": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {
+      "Enkatsu\\PhpOscServer": "src/"
+    }
+  }
+}
