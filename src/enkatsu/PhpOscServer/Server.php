@@ -22,6 +22,6 @@ class Server {
     $pos = 0;
     $buf = collect(str_split($buf))->chunk(2);
     $this->parser->parse($buf, $pos, $buf->count());
-    return $this->parser->messages;
+    return $this->parser->getMessages();
   }
 }
