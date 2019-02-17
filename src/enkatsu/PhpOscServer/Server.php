@@ -3,7 +3,7 @@
 namespace Enkatsu\PhpOscServer;
 use Enkatsu\PhpOscParser\Parser;
 
-class PhpOscServer {
+class Server {
   private $parser;
   private $BUFFER_SIZE = 8192;
   
