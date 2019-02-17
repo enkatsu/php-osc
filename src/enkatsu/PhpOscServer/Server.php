@@ -24,9 +24,8 @@ class Server {
     flush();
     if(is_null($buf)) return;
     $pos = 0;
-    var_dump(join(',', str_split(bin2hex($buf), 8)));
     $buf = collect(str_split(bin2hex($buf), 8));
     $this->parser->parse($buf, $pos, $buf->count() - 1);
-    return $this->parser->getMessages();
+    return $this->parser->flush();
   }
 }
