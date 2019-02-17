@@ -19,7 +19,9 @@ class Server {
     $socket = socket_create(AF_INET, SOCK_DGRAM, SOL_UDP);
     socket_bind($socket, $this->host, $this->port);
     socket_recv($socket, $buf, $BUFFER_SIZE, 0);
-    $this->parser->parse($buf);
+    $pos = 0;
+    $buf = collect(str_split($buf))->chunk(2);
+    $this->parser->parse($buf, $pos, $buf->count());
     return $this->parser->messages;
   }
 }
