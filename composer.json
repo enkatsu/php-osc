@@ -15,7 +15,7 @@
   }],
   "require": {
     "tightenco/collect": "v5.7.*",
-    "enkatsu/php-osc-parser": "dev-master"
+    "enkatsu/php-osc-parser": "dev-develop"
   },
   "autoload": {
     "psr-0": {
