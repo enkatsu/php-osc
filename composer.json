@@ -1,10 +1,10 @@
 {
-  "name": "enkatsu/php-osc-server",
-  "description": "Simple OSC(Open Sound Control) server",
+  "name": "enkatsu/php-osc",
+  "description": "Simple OSC(Open Sound Control) library",
   "keywords": ["OSC"],
   "type": "library",
   "license": "MIT",
-  "homepage": "https://github.com/enkatsu/php-osc-server",
+  "homepage": "https://github.com/enkatsu/php-osc",
   "authors": [{
     "name": "enkatsu",
     "email": "endkty0509@gmail.com"

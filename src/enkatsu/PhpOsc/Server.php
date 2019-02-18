@@ -1,6 +1,6 @@
 <?php
 
-namespace Enkatsu\PhpOscServer;
+namespace Enkatsu\PhpOsc;
 
 use Tightenco\Collect\Support\Collection;
 use Enkatsu\PhpOscParser\Parser;
